@@ -1,0 +1,34 @@
+.navbar__cart .cart-img {
+    width: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative; /* Agregado para posicionar la notificación */
+  }
+  
+  .navbar__cart .cart-img:hover {
+    padding: 5px;
+  }
+  
+  .navbar__cart a {
+    text-decoration: none;
+  }
+  
+  .notification {
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .notification:hover {
+    padding: 5px;
+  }
+  
+  
